@@ -83,7 +83,7 @@ img {
 }
 
 .color-4 {
-    color: #D98E04;
+    color: #d90404;
 }
 
 .color-5 {
@@ -129,7 +129,7 @@ img {
 
 .theme-bg-gradient {
     background-image: -webkit-gradient(linear, left top, right top, from(#FAD407), to(#F2B705));
-    background-image: linear-gradient(to right, #FAD407 0%, #F2B705 100%);
+    background-image: linear-gradient(to right, #ffffff 0%, #eeebdd 100%);
     -webkit-box-shadow: 0 5px 29px rgba(0, 205, 214, 0.3);
     box-shadow: 0 5px 29px rgba(0, 205, 214, 0.3);
 }
@@ -143,7 +143,7 @@ img {
 
 .theme-bg-gradient-3 {
     background-image: -webkit-gradient(linear, left top, right top, from(#ffffffc4), to(#ffffff00));
-    background-image: linear-gradient(to right, #fffffff0 0%, #F2B705 90%, #F2B705 100%);
+    background-image: linear-gradient(to right, #ff0000 0%, #ff0000 100%);
     -webkit-box-shadow: 0 5px 29px rgba(0, 205, 214, 0.3);
     box-shadow: 0 5px 29px rgba(0, 205, 214, 0.3);
 }
@@ -1223,16 +1223,16 @@ a:focus {
 .brand-logo img {
     left: 0;
     position: absolute;
-    width: 80%;
+    width: 55%;
     margin-top: -8px;
 }
 
 header li:hover>a {
-    color: #d60000 !important;
+    color: #fff132 !important;
 }
 
 header li.active>a {
-    color: #d60000 !important;
+    color: #fff132 !important;
 }
 
 nav {
@@ -1328,7 +1328,7 @@ nav.top-nav-collapse {
 
 
 .banner-area .banner-txt .banner-intro .banner-title span {
-    color: #8C0303;
+    color: rgb(255, 0, 0);
 }
 
 .banner-area .banner-txt .app-media {
@@ -1350,7 +1350,7 @@ nav.top-nav-collapse {
 }
 
 .banner-area .banner-txt .banner-intro .banner-title {
-    color: #fff;
+    color: rgb(255, 0, 0)   ;
     line-height: 45px;
     font-size: 30px;
     margin-bottom: 20px;
@@ -1372,7 +1372,7 @@ nav.top-nav-collapse {
     text-align: center;
     display: table;
     cursor: pointer;
-    background: #D98E04;
+    background: #ffffff;
     margin-bottom: 15px;
     -webkit-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.2);
@@ -1380,7 +1380,7 @@ nav.top-nav-collapse {
 }
 
 .banner-area .banner-txt .app-media .single-media a i {
-    color: #fff;
+    color: #ff0000;
     font-size: 40px;
     vertical-align: middle;
     display: table-cell;
@@ -1428,7 +1428,7 @@ nav.top-nav-collapse {
 .popup-vedio .circle-1 {
     width: 100%;
     height: 100%;
-    background-color: #F2B705;
+    background-color: rgba(255, 0, 0, 0.356);
     top: 0;
     animation: pulse 1.2s linear 0s infinite;
 }
@@ -1436,7 +1436,7 @@ nav.top-nav-collapse {
 .popup-vedio .circle-2 {
     width: 100%;
     height: 100%;
-    background-color: #FAD407;
+    background-color: rgba(255, 0, 0, 0.356);
     top: 0;
     animation: pulse-2 1.2s linear 0s infinite;
 }
@@ -1494,7 +1494,7 @@ nav.top-nav-collapse {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #590202;
+    background: #ff0000;
     opacity: 1;
 }
 
@@ -1605,6 +1605,7 @@ nav.top-nav-collapse {
 }
 
 .course .ia-icon .fa {
+    color: #ff0000;
     transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
@@ -1661,8 +1662,8 @@ nav.top-nav-collapse {
 .why-choose .nav-tabs>li>a:hover:hover,
 .why-choose .nav-tabs>li>a:focus:hover {
     background-color: transparent;
-    background-image: -webkit-gradient(linear, left top, right top, from(#FAD407), to(#F2B705));
-    background-image: linear-gradient(to right, #FAD407 0%, #F2B705 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(#fa0707), to(#f20505));
+    background-image: linear-gradient(to right, #fa0707 0%, #f20505 100%);
     color: #fff;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
@@ -1672,8 +1673,8 @@ nav.top-nav-collapse {
 .why-choose .nav-tabs>li.active>a:hover,
 .why-choose .nav-tabs>li.active>a:focus {
     background-color: transparent;
-    background-image: -webkit-gradient(linear, left top, right top, from(#FAD407), to(#F2B705));
-    background-image: linear-gradient(to right, #FAD407 0%, #F2B705 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(#fa0707), to(#f20505));
+    background-image: linear-gradient(to right, #fa0707 0%, #f20505 100%);
     color: #fff;
     border: 1px solid transparent;
 }
@@ -1703,7 +1704,7 @@ nav.top-nav-collapse {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #590202;
+    background: #ff0000;
     opacity: 1;
 }
 
@@ -1852,7 +1853,7 @@ nav.top-nav-collapse {
 }
 
 .price-title {
-    opacity: 0.1;
+    opacity: 0.25;
 }
 
 .price-wrapper ul {
@@ -1860,21 +1861,21 @@ nav.top-nav-collapse {
 }
 
 .price-wrapper .price-list {
-    border-bottom: 1px solid #eaf0f8;
+    border-bottom: 1px solid #ff00009d;
     padding: 20px 0;
 }
 
 .price-wrapper .price-list:first-child {
-    border-top: 1px solid #eaf0f8;
+    border-top: 1px solid #ff00009d;
 }
 
 .price-wrapper .price-same-st .price-list {
-    border-bottom: 1px solid #d60000;
+    border-bottom: 1px solid #ffee0094;
     padding: 20px 0;
 }
 
 .price-wrapper .price-same-st .price-list:first-child {
-    border-top: 1px solid #d60000;
+    border-top: 1px solid #ffee0094;
 }
 
 .price-wrapper .price-btn {
@@ -2097,7 +2098,7 @@ nav.top-nav-collapse {
     bottom: 0;
     left: 50%;
     margin-left: -18px;
-    background-color: #FF3366
+    background-color: #ffeb33
 }
 
 .progress-bar-number .name-inner {
@@ -2497,8 +2498,8 @@ nav.top-nav-collapse {
 }
 
 .btn.theme-bg-gradient {
-    background-image: -webkit-gradient(linear, left top, right top, from(#FAD407), to(#F2B705));
-    background-image: linear-gradient(to right, #FAD407 0%, #F2B705 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(#fa0707), to(#f20505));
+    background-image: linear-gradient(to right, #fa0707 0%, #f20505 100%);
     -webkit-box-shadow: 0 5px 29px rgba(214, 157, 0, 0.3);
     box-shadow: 0 5px 29px rgba(214, 157, 0, 0.3);
     color: #fff;
@@ -2513,13 +2514,13 @@ nav.top-nav-collapse {
 }
 
 .btn.theme-bg-gradient:hover {
-    color: #590202;
+    color: #ffee00;
     -webkit-transition: color 0.3s ease-out;
     transition: color 0.3s ease-out;
 }
 
 .btn.theme-bg-gradient:hover .slider_btn {
-    color: #590202;
+    color: #ffee00;
     -webkit-transition: color 0.3s ease-out;
     transition: color 0.3s ease-out;
 }
@@ -2527,7 +2528,7 @@ nav.top-nav-collapse {
 .btn.border-gradient {
     border: 1px solid transparent;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#f2f5fa), to(#f2f5fa)), -webkit-gradient(linear, left top, right top, from(#0098d6), to(#00cbd6));
-    background-image: linear-gradient(#f2f5fa, #f2f5fa), linear-gradient(to right, #FAD407 0%, #F2B705 100%);
+    background-image: linear-gradient(#f2f5fa, #f2f5fa), linear-gradient(to right, #fa0707 0%, #f20505 100%);
 
     background-origin: border-box;
     background-clip: content-box, border-box;
@@ -2543,14 +2544,14 @@ nav.top-nav-collapse {
 }
 
 .btn.border-gradient.light {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff)), -webkit-gradient(linear, left top, right top, from(#FAD407), to(#F2B705));
-    background-image: linear-gradient(#fff, #fff), linear-gradient(to right, #FAD407 0%, #F2B705 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff)), -webkit-gradient(linear, left top, right top, from(#fa0707), to(#f20505));
+    background-image: linear-gradient(#fff, #fff), linear-gradient(to right, #fa0707 0%, #f20505 100%);
 }
 
 .border-gradient {
     border: 1px solid transparent;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff)), -webkit-gradient(linear, left top, right top, from(#FAD407), to(#F2B705));
-    background-image: linear-gradient(#fff, #fff), linear-gradient(to right, #FAD407 0%, #F2B705 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff)), -webkit-gradient(linear, left top, right top, from(#fa0707), to(#f20505));
+    background-image: linear-gradient(#fff, #fff), linear-gradient(to right, #fa0707 0%, #f20505 100%);
     background-origin: border-box;
     background-clip: content-box, border-box;
     padding: 6px;
@@ -2617,8 +2618,8 @@ nav.top-nav-collapse {
 .button-mat:before {
     content: "";
     display: block;
-    background-image: -webkit-gradient(linear, left top, right top, from(#FAD407), to(#F2B705));
-    background-image: linear-gradient(to right, #FAD407 0%, #F2B705 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(#fa0707), to(#f20505));
+    background-image: linear-gradient(to right, #fa0707 0%, #f20505 100%);
     -webkit-box-shadow: 0 5px 29px rgba(214, 164, 0, 0.3);
     box-shadow: 0 5px 29px rgba(214, 164, 214, 0.3);
     color: #fff;
@@ -2671,7 +2672,7 @@ nav.top-nav-collapse {
     height: 3px;
     width: 73px;
     clear: both;
-    background: #d6c800;
+    background: #ffffff;
 }
 
 #toTop {

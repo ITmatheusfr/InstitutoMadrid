@@ -47,7 +47,7 @@
     /*-------------------------------*/
 
     var ost = 0;
-    /*$(window).scroll(function() {
+    $(window).scroll(function() {
 
         var cOst = $(this).scrollTop();
 
@@ -67,7 +67,7 @@
             $('.navbar').addClass('default').removeClass('top-nav-collapse');
         }
         ost = cOst;
-    });*/
+    });
 
 
     /*-----------------------------*/
