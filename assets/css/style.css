@@ -129,7 +129,7 @@ img {
 
 .theme-bg-gradient {
     background-image: -webkit-gradient(linear, left top, right top, from(#FAD407), to(#F2B705));
-    background-image: linear-gradient(to right, #ffffff 0%, #eeebdd 100%);
+    background-image: linear-gradient(to right, #0F0E0E 0%, #101010 100%);
     -webkit-box-shadow: 0 5px 29px rgba(0, 205, 214, 0.3);
     box-shadow: 0 5px 29px rgba(0, 205, 214, 0.3);
 }
@@ -143,7 +143,7 @@ img {
 
 .theme-bg-gradient-3 {
     background-image: -webkit-gradient(linear, left top, right top, from(#ffffffc4), to(#ffffff00));
-    background-image: linear-gradient(to right, #ff0000 0%, #ff0000 100%);
+    background-image: linear-gradient(to right, #AA1617 0%, #AA1617 100%);
     -webkit-box-shadow: 0 5px 29px rgba(0, 205, 214, 0.3);
     box-shadow: 0 5px 29px rgba(0, 205, 214, 0.3);
 }
@@ -1228,11 +1228,12 @@ a:focus {
 }
 
 header li:hover>a {
-    color: #fff132 !important;
+    color: #ffffff !important;
 }
 
 header li.active>a {
-    color: #fff132 !important;
+    color: #ffffff !important;
+    font-weight: 700;
 }
 
 nav {
@@ -1252,9 +1253,9 @@ nav {
 }
 
 .navbar-nav li a {
-    color: #fff;
+    color: rgba(255, 255, 255, 0.774);
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 400;
     cursor: pointer;
 }
 
@@ -1328,7 +1329,7 @@ nav.top-nav-collapse {
 
 
 .banner-area .banner-txt .banner-intro .banner-title span {
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .banner-area .banner-txt .app-media {
@@ -1350,7 +1351,7 @@ nav.top-nav-collapse {
 }
 
 .banner-area .banner-txt .banner-intro .banner-title {
-    color: rgb(255, 0, 0)   ;
+    color: rgb(255, 255, 255)   ;
     line-height: 45px;
     font-size: 30px;
     margin-bottom: 20px;
@@ -1380,7 +1381,7 @@ nav.top-nav-collapse {
 }
 
 .banner-area .banner-txt .app-media .single-media a i {
-    color: #ff0000;
+    color: #AA1617;
     font-size: 40px;
     vertical-align: middle;
     display: table-cell;
@@ -1494,7 +1495,7 @@ nav.top-nav-collapse {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #ff0000;
+    background: #AA1617;
     opacity: 1;
 }
 
@@ -1605,7 +1606,7 @@ nav.top-nav-collapse {
 }
 
 .course .ia-icon .fa {
-    color: #ff0000;
+    color: #AA1617;
     transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
@@ -1704,7 +1705,7 @@ nav.top-nav-collapse {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #ff0000;
+    background: #AA1617;
     opacity: 1;
 }
 
@@ -1861,12 +1862,12 @@ nav.top-nav-collapse {
 }
 
 .price-wrapper .price-list {
-    border-bottom: 1px solid #ff00009d;
+    border-bottom: 1px solid #AA16179d;
     padding: 20px 0;
 }
 
 .price-wrapper .price-list:first-child {
-    border-top: 1px solid #ff00009d;
+    border-top: 1px solid #AA16179d;
 }
 
 .price-wrapper .price-same-st .price-list {
